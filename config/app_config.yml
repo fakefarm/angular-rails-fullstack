@@ -1,0 +1,13 @@
+defaults: &defaults
+  twitter:
+    clientId: yourClientId
+    clientSecret: yourClientSecret
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
