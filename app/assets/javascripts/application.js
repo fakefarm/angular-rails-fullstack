@@ -1,6 +1,7 @@
-//=requirejquery
-//=requirejquery_ujs
-//=requireangular
-//=requireangular-route
-//=requireangular-resource
-//=require_tree.
+
+//=require jquery
+//=require jquery_ujs
+//=require angular
+//=require angular-route
+//=require angular-resource
+//=require_tree .

@@ -1,6 +1,6 @@
-angular.module('myApp', ['ngRoute', 'myApp.controller', 'myApp.services'])
+angular.module('myApp', ['ngRoute', 'myApp.controllers', 'myApp.services'])
   .config(function($routeProvider){
-    $routeProvider.when('/user', {
+    $routeProvider.when('/', {
     templateUrl: '/templates/dashboard.html',
     controller: 'HomeController'
   })
