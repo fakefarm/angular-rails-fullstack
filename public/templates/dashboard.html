@@ -1,0 +1,8 @@
+<h2>Dashboard</h2>
+<div>
+  <ul>
+    <li ng-repeat="article in articles | orderBy:publishedDate:false">
+      <h2><a href="{{ article.link }}">{{ article.title }}</a></h2>
+    </li>
+  </ul>
+</div>
